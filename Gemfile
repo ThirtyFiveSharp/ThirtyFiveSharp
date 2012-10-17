@@ -22,11 +22,13 @@ end
 
 group :test, :development do
   gem 'rspec-rails', '~> 2.0'
+  gem 'cucumber-rails'
+  gem 'database_cleaner'
 end
 
 gem 'jquery-rails'
 # gem 'webrat'
-# gem 'capybara'
+gem 'capybara'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
