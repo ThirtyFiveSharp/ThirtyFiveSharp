@@ -173,6 +173,7 @@ DEPENDENCIES
   heroku
   jquery-rails
   pg
+  thin
   rails (= 3.2.3)
   rspec-rails (~> 2.0)
   sass-rails (~> 3.2.3)
